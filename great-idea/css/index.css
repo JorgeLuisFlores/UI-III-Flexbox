@@ -49,7 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	text-decoration: none;
 }
 
 html, body {
@@ -57,10 +58,158 @@ html, body {
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+h5{
+	font-family: 'Bangers', cursive;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 22px;
+
+}
+
+
+h6 {
+	font-family: 'Bangers', cursive;
+	margin-bottom: 15px;
+	font-size: 17.5px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-evenly;
+
+}
+
+a {
+	height: 40px;
+	margin-top: 35px;
+	margin-left: 30px;
+	font-size: 14px;
+	color:gray;
+
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+
+.logo {
+	width: 140px;
+	height: 35px;
+	margin-top: 20px;
+	margin-right: 10px;
+
+}
+.servicesheader{
+	margin-left: 150px;
+	width: 82%;
+	height: 4%;
+}
+
+
+#IOD {
+	text-align: center;
+	font-size: 120px;
+	margin-right: 455px;
+	margin-left: 0px;
+	padding-left: 0px;
+
+}
+
+.headerpic {
+	width: 545px;
+	height: 545px;
+	float: right;
+	position: absolute;
+	top: 175px;
+	right: 125px;
+
+}
+
+.section-services{
+	margin-top: 150px;
+}
+
+.button {
+	padding: 8px 44px;
+	font-size: 18px;
+	font-family: 'Titillium Web', sans-serif;
+	border: solid black 2.5px;
+	background: white;
+	margin-left: 325px;
+}
+
+.button:hover {
+	background: black;
+	color: white;
+}
+
+hr {
+	border-top: 2px solid black;
+	margin-top: 100px;
+	width: 85%;
+}
+
+section {
+	margin-top: 15px;
+	display: flex;
+}
+
+p {
+	margin-bottom: 50px;
+}
+
+div {
+	height: 150px;
+	margin-bottom: 15px;
+	margin-top: 50px;
+	margin-left: 0px;
+	width: 28.5%;
+	font-size: 18px;
+}
+
+.push1 {
+	margin-left: 8.5%;
+	font-size: 20px;
+	width: 40%;
+}
+
+.push2 {
+	margin-left: 2.5%;
+	font-size: 20px;
+	width: 40%;
+}
+
+.push3 {
+	margin-left: 8.5%;
+}
+
+.middle-img {
+	width: 82.5%;
+	height: 225px;
+	margin-left: 8%;
+}
+
+.contact {
+	margin-left: 120px;
+	margin-top: 55px;
+	margin-bottom: 55px;
+}
+
+footer {
+	text-align: center;
+}
+
+
+.services-header-img{
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 80%;
+}
