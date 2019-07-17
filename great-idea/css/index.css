@@ -75,6 +75,12 @@ h1, h2, h3, h4 {
 /* Code was getting messy so wanted to sort it by: Index Only, Services Only, and Both */
 
 /* Index Only */
+.logo {
+	width: 140px;
+	height: 35px;
+	margin-top: 20px;
+	margin-right: 10px;
+}
 
 h6 {
 	font-family: 'Bangers', cursive;
@@ -134,6 +140,13 @@ h6 {
 }
 
 /* Services Only */
+
+.logo2{
+	margin-top: -12.5px;
+	width: 140px;
+	height: 35px;
+	margin-right: 50px;
+}
 
 h5 {
 	font-family: 'Bangers', cursive;
@@ -209,13 +222,6 @@ a {
 
 nav a:hover {
 	text-decoration: underline;
-}
-
-.logo {
-	width: 140px;
-	height: 35px;
-	margin-top: 20px;
-	margin-right: 10px;
 }
 
 button {
